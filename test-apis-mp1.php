@@ -21,7 +21,7 @@ function test_api($url){
 
 
 
-$url = "https://api.mercadolibre.com/";
+$url = "https://api.mercadopago.com/";
 $category = test_api($url . "item_categories");
 $sites = test_api($url . "sites");
 $sites_mla = test_api($url . "sites/MLA");
